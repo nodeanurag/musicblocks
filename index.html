@@ -115,7 +115,6 @@
      loader.js and activity.js read those globals. -->
         <script src="js/releaseconfig.js"></script>
 
-
         <script src="dist/vendor.min.js"></script>
         <link
             rel="preload"
@@ -541,12 +540,22 @@
                             </div>
                             <ul class="main left">
                                 <li>
-                                    <a id="play" class="left tooltipped" role="button" tabindex="0"
+                                    <a
+                                        id="play"
+                                        class="left tooltipped"
+                                        role="button"
+                                        tabindex="0"
+                                        aria-label="Start project execution"
                                         ><i class="material-icons main">play_circle_filled</i></a
                                     >
                                 </li>
                                 <li>
-                                    <a id="stop" class="left tooltipped" role="button" tabindex="0"
+                                    <a
+                                        id="stop"
+                                        class="left tooltipped"
+                                        role="button"
+                                        tabindex="0"
+                                        aria-label="Stop execution"
                                         ><i class="material-icons main">stop</i></a
                                     >
                                 </li>
@@ -558,6 +567,7 @@
                                         data-tooltip="Record"
                                         role="button"
                                         tabindex="0"
+                                        aria-label="Record audio"
                                     ></a>
                                     <a
                                         id="recordDropdownArrow"
@@ -566,6 +576,7 @@
                                         style="margin-left: -5px; padding: 0; font-size: 28px"
                                         role="button"
                                         tabindex="0"
+                                        aria-label="Recording options"
                                     ></a>
                                 </li>
                             </ul>
@@ -578,6 +589,7 @@
                                         data-position="bottom"
                                         role="button"
                                         tabindex="0"
+                                        aria-label="Toggle full screen"
                                         onclick="setIcon()"
                                     >
                                         <i class="material-icons" id="FullScrIcon">fullscreen</i>
@@ -590,6 +602,7 @@
                                         data-position="bottom"
                                         role="button"
                                         tabindex="0"
+                                        aria-label="New project"
                                         data-activates="newdropdown"
                                     >
                                         <i class="material-icons md-48">note_add</i>
@@ -602,6 +615,7 @@
                                         data-position="bottom"
                                         role="button"
                                         tabindex="0"
+                                        aria-label="Open project file"
                                     >
                                         <i class="material-icons md-48">folder</i>
                                     </a>
@@ -613,6 +627,7 @@
                                         data-position="bottom"
                                         role="button"
                                         tabindex="0"
+                                        aria-label="Save project"
                                         data-activates="saveddropdownbeg"
                                     >
                                         <i id="save1" class="material-icons md-48">save_alt</i>
@@ -625,6 +640,7 @@
                                         class="tooltipped dropdown-trigger"
                                         role="button"
                                         tabindex="0"
+                                        aria-label="Save project (advanced)"
                                         data-position="bottom"
                                         data-activates="saveddropdown"
                                     >
@@ -638,6 +654,7 @@
                                         data-position="bottom"
                                         role="button"
                                         tabindex="0"
+                                        aria-label="Open Planet cloud community"
                                     >
                                         <i class="material-icons md-48">public</i>
                                     </a>
@@ -649,6 +666,7 @@
                                         class="tooltipped"
                                         role="button"
                                         tabindex="0"
+                                        aria-label="Planet cloud community (disabled)"
                                         data-position="bottom"
                                     >
                                         <i style="color: #a5acba" class="material-icons md-48"
@@ -663,6 +681,7 @@
                                         data-position="bottom"
                                         role="button"
                                         tabindex="0"
+                                        aria-label="Toggle extra toolbar controls"
                                     >
                                         <i id="menu" class="animated-icon material-icons md-48"
                                             >menu</i
@@ -676,6 +695,7 @@
                                         data-position="bottom"
                                         role="button"
                                         tabindex="0"
+                                        aria-label="Help and tours"
                                         data-activates="helpdropdown"
                                     >
                                         <i class="material-icons md-48">help</i>
