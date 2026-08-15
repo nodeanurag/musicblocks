@@ -500,7 +500,7 @@ class ToolbarUI {
         const stopIcon = docById("stop");
         const recordButton = docById("record");
         playIcon.setAttribute("role", "button");
-        playIcon.setAttribute("aria-label", _("Play project"));
+        playIcon.setAttribute("aria-label", _("Play"));
         playIcon.setAttribute("tabindex", "0");
         playIcon.addEventListener("keydown", e => {
             if (e.key === "Enter" || e.key === " ") {
@@ -562,7 +562,7 @@ class ToolbarUI {
         const stopIcon = docById("stop");
         const recordButton = docById("record");
         stopIcon.setAttribute("role", "button");
-        stopIcon.setAttribute("aria-label", _("Stop project"));
+        stopIcon.setAttribute("aria-label", _("Stop"));
         stopIcon.setAttribute("tabindex", "0");
         stopIcon.addEventListener("keydown", e => {
             if (e.key === "Enter" || e.key === " ") {
